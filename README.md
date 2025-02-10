@@ -1,7 +1,7 @@
 # TarefaFlow - Gerenciador de Tarefas 🚧 *Em Desenvolvimento*
 
 ## Descrição
-TaskFlow é um sistema de gerenciamento de tarefas simples e eficiente, criado para ajudar no planejamento do dia a dia. O programa roda no terminal e permite adicionar, listar e remover tarefas, além de organizar as tarefas por status.
+TarefaFlow é um sistema de gerenciamento de tarefas simples e eficiente, criado para ajudar no planejamento do dia a dia. O programa roda no terminal e permite adicionar, listar e remover tarefas, além de organizar as tarefas por status.
 
 ⚠️ **Este projeto ainda está em desenvolvimento e novas funcionalidades estão sendo implementadas.**
 
