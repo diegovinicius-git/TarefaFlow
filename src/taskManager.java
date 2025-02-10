@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class TaskManager {
-    private List<Task> tasks;
+public class taskManager {
+    public List<Task> tasks;
 
-    public TaskManager() {
+    public taskManager() {
         this.tasks = new ArrayList<>();
     }
 
@@ -21,22 +21,20 @@ public class TaskManager {
     *  Usar decisões e loop
     * */
     public void removeTask(int id) {
-        Task taskToRemove = null;
+        boolean removed = false;
 
-        for (Task task : tasks) {
-            if (task.getId() == id) {
-                taskToRemove = task;
+        for (int i = tasks.size() - 1; i >= 0; i--) {
+            if (tasks.get(i).getId() == id) {
+                System.out.println("Tarefa removida" + tasks.get(i).getName());
+                tasks.remove(i);
+                removed = true;
                 break;
             }
-
-        if (taskToRemove != null) {
-            tasks.remove(taskToRemove);
-            System.out.println("Tarefa removida: " + taskToRemove.getName());
-        } else {
+        }
+        if (!removed) {
             System.out.println("Tarefa não encontrada: " + id);
         }
 
-        }
     }
 
     /*
