@@ -10,11 +10,11 @@ TaskFlow é um sistema de gerenciamento de tarefas simples e eficiente, criado p
 - 📋 Listar todas as tarefas cadastradas.
 - ❌ Remover tarefas pelo nome.
 - 🔄 Atualizar status de tarefas (To Do, Doing, Done).
-- 💾 Salvar tarefas no banco de dados PostgreSQL para persistência.
+- 💾 Salvar tarefas no banco de dados MySQL para persistência.
 
 ## Tecnologias Utilizadas
 - 🟡 **Java** (versão 17 ou superior)
-- 🛢 **PostgreSQL** (para armazenamento das tarefas)
+- 🛢 **MySQL** (para armazenamento das tarefas)
 - 🔗 **JDBC** (para conexão com o banco de dados)
 - 🗂 **Git** (para controle de versão)
 
@@ -26,7 +26,7 @@ cd TaskFlow
 ```
 
 ### 2. Configure o Banco de Dados
-- Instale o PostgreSQL
+- Instale o MySQL
 - Crie um banco de dados chamado `taskflow_db`
 - Crie a tabela inicial:
 ```sql
